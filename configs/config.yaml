@@ -1,0 +1,23 @@
+model:
+  pt_path: "models/best.pt"
+  openvino_fp16_dir: "models/best_openvino_model"
+  imgsz: 640
+  conf_threshold: 0.30
+  iou_threshold: 0.45
+
+tracker:
+  max_age: 30
+  n_init: 3
+  max_iou_distance: 0.7
+
+severity:
+  minor_max: 1.2
+  moderate_max: 3.0
+
+geo:
+  start_lat: 26.88510
+  start_lon: 75.79050
+  lat_step_per_frame: 0.000003
+  lon_step_per_frame: 0.000002
+  dedup_radius_meters: 5.0
+  default_corridor: "Tonk Road (Rambagh - Tonk Phatak)"

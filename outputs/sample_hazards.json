@@ -1,0 +1,50 @@
+[
+    {
+      "hazard_id": "JPR-20261121-001",
+      "track_id": 1,
+      "timestamp_utc": "2026-11-21T08:15:10Z",
+      "last_seen_utc": "2026-11-21T09:10:05Z",
+      "latitude": 26.88525,
+      "longitude": 75.79060,
+      "corridor": "Tonk Road (Rambagh - Tonk Phatak)",
+      "severity_tier": "CRITICAL",
+      "severity_score": 4.42,
+      "mask_area_pct": 3.78,
+      "confidence": 0.89,
+      "sighting_count": 3,
+      "crop_path": "",
+      "inference_device": "npu"
+    },
+    {
+      "hazard_id": "JPR-20261121-002",
+      "track_id": 4,
+      "timestamp_utc": "2026-11-21T08:18:40Z",
+      "last_seen_utc": "2026-11-21T08:45:12Z",
+      "latitude": 26.88690,
+      "longitude": 75.79170,
+      "corridor": "Tonk Road (Rambagh - Tonk Phatak)",
+      "severity_tier": "MODERATE",
+      "severity_score": 2.15,
+      "mask_area_pct": 1.84,
+      "confidence": 0.76,
+      "sighting_count": 2,
+      "crop_path": "",
+      "inference_device": "npu"
+    },
+    {
+      "hazard_id": "JPR-20261121-003",
+      "track_id": 7,
+      "timestamp_utc": "2026-11-21T08:22:05Z",
+      "last_seen_utc": "2026-11-21T08:22:05Z",
+      "latitude": 26.88840,
+      "longitude": 75.79260,
+      "corridor": "JLN Marg (Gandhi Nagar - Malviya Nagar)",
+      "severity_tier": "MINOR",
+      "severity_score": 0.91,
+      "mask_area_pct": 0.78,
+      "confidence": 0.64,
+      "sighting_count": 1,
+      "crop_path": "",
+      "inference_device": "npu"
+    }
+  ]

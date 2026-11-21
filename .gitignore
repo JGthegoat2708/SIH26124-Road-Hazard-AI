@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.onnx
+*.engine
+*openvino*/
+data/
+runs/
+outputs/*.mp4
+outputs/crops/*.jpg
+outputs/hazards.json
+.DS_Store
